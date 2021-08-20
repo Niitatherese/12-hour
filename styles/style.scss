@@ -102,4 +102,72 @@ li {
     background-image: url(/images/sec-pic.png);
     background-repeat:no-repeat;
     background-size: cover;
+    display: flex;
+}
+
+.choose-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 63px;
+    width: 653px;
+    padding: 10px;
+    border: 30px;    
+    display: flex;
+    top: 150%;
+    left: 40%;
+    color: white;
+    font-size: 36px;
+}
+
+.first-part-choose {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 63px;
+    width: 560px;
+    margin-top: 28vh;
+    left: 40%;
+    color: white;
+    font-size: 16px;
+}
+
+.second-part-choose {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 63px;
+    width: 560px;  
+    margin-top: 40vh;
+    left: 40%;
+    color: white;
+    font-size: 16px;
+}
+
+.choose-btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 63px;
+    width: 228px;  
+    margin-top: 55vh;
+    left: 17%;
+    color: white;
+    font-size: 16px;
+    background-color: #5474FD;
+    
+}
+
+.choose-img1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 220px;
+    width: 350px;   
+    margin-top: 28vh;
+    left: 64%;  
+}
+
+.choose-img2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 220px;
+    width: 350px;  
+    margin-top: 61vh;
+    left: 80%;  
 }
